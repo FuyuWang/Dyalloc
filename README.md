@@ -1,16 +1,16 @@
-# Neuralloc
+# Dyalloc
 
-Neuralloc is an automatic and adaptive resource partitioner 
+Dyalloc is an automatic and adaptive resource partitioner 
 for spatial accelerators with meta reinforcement learning.
-This repository contains the source code for Neuralloc.
+This repository contains the source code for Dyalloc.
 
 ### Setup ###
-* Download the Neuralloc source code 
+* Download the Dyalloc source code 
 
 * Create virtual environment through anaconda
 ```
-conda create --name NeurallocEnv python=3.8
-conda activate NeurallocEnv
+conda create --name DyallocEnv python=3.8
+conda activate DyallocEnv
 ```
 * Install packages
    
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 python build.py
 ```
 
-### Run Neuralloc ###
+### Run Dyalloc ###
 
 * Run Autoalloc on cloud and edge platforms
 ```
